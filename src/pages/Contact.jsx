@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { useEffect } from "react";
 
 export default function Contact() {
   const form = useRef();
@@ -27,9 +28,21 @@ export default function Contact() {
         }
       );
   };
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const el = document.querySelector(hash);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, []);
 
   return (
-    <div className="w-full min-h-screen bg-gray-200 py-20 px-6 md:px-16">
+    <div
+      id="contact"
+      className="w-full min-h-screen bg-gray-200 py-20 px-6 md:px-16"
+    >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold tracking-widest border-y-4 inline-block py-2 px-6 mb-12">
           CONTACT

@@ -102,7 +102,7 @@ export default function HeroSection() {
 
         <div
           className="sm:hidden w-full bg-cover bg-center relative text-white"
-          style={{ backgroundImage: "url('/image 17.png')" }}
+          style={{ backgroundImage: "url('/profilemobile.png')" }}
         >
           <div className="w-full h-full min-h-[90vh] relative flex flex-col items-center justify-center px-6 py-10 ">
             <div className="absolute inset-0 bg-black/40" />
