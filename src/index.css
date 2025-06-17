@@ -1,0 +1,11 @@
+@import "tailwindcss";
+.rotated-black {
+  position: absolute;
+  width: 1200px;
+  height: 400px;
+  background-color: red;
+  top: -200px;
+  left: -600px;
+  transform: rotate(-9.67deg);
+  z-index: 0;
+}
