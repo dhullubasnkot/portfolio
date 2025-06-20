@@ -8,7 +8,10 @@ export default function HeroSection() {
     <div id="hero" className="w-full overflow-x-hidden max-w-screen ">
       <nav className="w-full h-[66px] flex font-bold text-[17px] relative z-50">
         <div className="w-1/2 bg-[#f2f2f2] flex items-center pl-4 sm:pl-6 md:pl-12">
-          <img src="/logo.svg" alt="Logo" className="h-6 sm:h-7" />
+          {/* <img src="/logo.svg" alt="Logo" className="h-6 sm:h-7" /> */}
+          <a className="h-8 w-8 text-2xl font-[exo]" href="/">
+            SUJAN
+          </a>
         </div>
 
         <div className="w-1/2 bg-black text-white hidden sm:flex justify-end items-center px-4 md:px-8 lg:px-12 gap-4 md:gap-10 lg:gap-16 xl:gap-20">
@@ -73,10 +76,10 @@ export default function HeroSection() {
         <div className="hidden sm:flex w-full sm:w-1/2 bg-[#f2f2f2] flex-col justify-center px-6 md:px-10 lg:px-16 xl:px-20">
           <h3 className="text-sm md:text-base text-gray-600 mb-2">Hi, I am</h3>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-2">
-            Tomasz Gajda
+            SUJAN PAUDEL
           </h1>
           <h2 className="text-gray-500 text-xs md:text-sm lg:text-base mb-6">
-            Front-end Developer / UI Designer
+            MERN STACK DEVELOPER / LARAVEL DEVELOPER
           </h2>
           <div className="flex gap-3 md:gap-4">
             <a
@@ -133,9 +136,9 @@ export default function HeroSection() {
 
         <div className="hidden sm:flex w-full sm:w-1/2 bg-black items-end justify-center">
           <img
-            src="/image 17.png"
+            src="/prop1.png"
             alt="Tomasz Gajda"
-            className="w-[80%] max-w-[400px] md:max-w-[500px] object-contain z-10"
+            className="w-[90%] max-w-[500px] md:max-w-[500px] object-contain z-10"
           />
         </div>
       </section>
